@@ -1,0 +1,471 @@
+#corpo8{
+     padding: 10px;
+     gap: 20px;
+     background: linear-gradient(180deg, rgb(199, 224, 233), rgba(42, 123, 155, 1));
+     height: 100svh;
+}
+
+#menu-principal ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  background: rgba(42, 123, 155, 1);
+  border-radius: 5px;
+}
+
+#li1{
+    list-style: none;
+}
+
+#li2{
+    list-style: none;
+}
+
+#menu-principal li {
+  position: relative;
+}
+
+#menu-principal li a {
+  display: block;
+  padding: 12px 20px;
+  color: white;
+  text-decoration: none;
+  transition: background-color 0.2s;
+}
+
+#menu-principal li a:hover {
+  background: rgb(9, 74, 100);
+}
+
+#menu-principal li ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: rgba(42, 123, 155, 1);
+  min-width: 180px;
+}
+
+#menu-principal li:hover ul {
+  display: block;
+}
+
+#menu-principal li ul li a {
+  padding: 10px;
+}
+
+#h2index {
+    text-align: center;
+}
+
+#pindex {
+    text-align: center;
+}
+
+#cardindex {
+    margin-left: 25rem;
+}
+
+ul.menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    overflow: hidden;
+}
+
+
+ul.menu li{float: left;}
+
+
+ul.menu li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    font-size: 30px;
+}
+
+ul.menu li a:hover{background-color: gray;}
+
+
+table.menu{
+    width: 100%;
+    background-color: gray;
+    border-collapse: collapse;
+}
+
+
+table.menu a{
+    padding: 14px 20px;
+    text-align: center;
+    border-right: 1px solid gray;
+    font-size: 30px;
+}
+
+
+table.menu td:last-child {border-right: none;}
+
+
+table.menu a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+}
+
+
+table.menu a:hover{background-color: black;}
+
+#corpo1{
+    color: rgb(9, 74, 100);
+}
+
+#corpo2{
+    display: block;
+    background: linear-gradient(180deg, rgb(199, 224, 233), rgba(42, 123, 155, 1));
+    height: 100svh;
+}
+
+#corpo3{
+    display: block;
+    background: linear-gradient(180deg, rgb(199, 224, 233), rgba(42, 123, 155, 1));
+    height: 100svh;
+}
+
+#corpo4{
+    display: block;
+}
+
+article.card{
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+
+article.card h3{
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    color: red;
+    text-align: center;
+}
+
+article.card p{
+    color: red;
+    font-size: 1rem;
+    line-height: 1.4;
+}
+
+article.card footer{
+    margin-top: 15px;
+    font-size: 0.85rem;
+    color: gray;
+    text-align: center;
+}
+
+#menu1 {
+    width: 100%;
+    background-color: lightblue;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+
+#menu1 a{
+    padding: 14px 20px;
+    text-align: center;
+    border-right: 1px solid lightblue;
+    font-size: 30px;
+}
+
+
+#menu1 td:last-child {border-right: none;}
+
+
+#menu1 a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+}
+
+
+#menu1 a:hover{background-color: white;}
+
+#corpo5 {background: linear-gradient(180deg, rgb(12,22,34), rgb(15,76,76));
+     height: 100svh;
+     padding-top: auto;
+     padding-left: auto;}
+
+#form2 {text-align: center;}
+
+#titulo1{
+    color: white;
+    text-align: center;
+}
+
+#label1{color: white;}
+
+#label2{color: white;}
+
+#botao1{
+    font-size: 15px;
+}
+
+#sec1{
+    padding-left: 1rem;
+    margin-top: 20rem;
+}
+
+#corpo6 {background: linear-gradient(180deg, rgb(96, 207, 53), rgb(15,76,76));
+    height: 100svh;}
+
+
+#h21{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#form3 {
+    padding: 50px;
+    margin: 100px;
+    margin-left: 25rem;
+    width: 450px;
+    background-color: white;
+    border-radius: 40px;
+    font-size: 20px;
+}
+
+
+#label3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#label4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#label5{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#matricula{
+    height: 20px;
+    width: 250px;
+}
+
+#senha{
+    height: 20px;
+    width: 250px;
+}
+
+#botao2{
+    background-color: green;
+    height: 30px;
+    width: 450px;
+    border-radius: 10px;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+#corpo9{
+    background-image: url('https://images.tcdn.com.br/img/img_prod/986221/papel_de_parede_gaming_controles_neon_fundo_azul_9911000_2_d1e7330636edc751bd42f1c041d2aae7.jpg');
+}
+
+
+#img1{
+    width: 200px;
+}
+
+
+#ul1{
+    list-style-type: none;
+    display: flex;
+    color: white;
+    background-color: rgb(40, 40, 138);
+    text-align: center;
+    font-size: 25px;
+    border-radius: 10px;
+    gap: 20px;
+}
+
+
+#ul1 li a{
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+#ul1 li a:hover {background-color: rgb(68, 121, 236);}
+
+
+.cardjogo {
+    background-color: rgb(40, 40, 138);
+}
+
+#par1{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+#sec2{
+    display: flex;
+}
+
+#titulo2{
+    margin-top: 62px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#titulo3 {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#footer1 {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.row .col{
+    border: 1px solid black;
+    font-size: 11px;
+}
+
+#h11 {
+    text-align: center;
+}
+
+#par2 {
+    text-align: center;
+}
+
+.cardfoto{
+    margin-left: 30rem;
+    margin-right: 30rem;
+}
+
+
+.carousel-control-next {
+    margin-right: 4rem;
+    margin-left: 4rem;
+}
+
+
+#corpo10 {
+    background-image: url(https://img.cdndsgni.com/preview/10311017.jpg);
+}
+
+
+.titfoto {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.carousel-indicators {
+    margin-right: 9rem;
+}
+
+/* ======= ESTILO GERAL ======= */
+#corpo11 {
+    font-family: "Georgia", "Times New Roman", serif;
+    line-height: 1.8;
+    color: #333;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* ======= CONTAINER PRINCIPAL ======= */
+#corpo11 {
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+
+#mainlattes {
+    margin-left: 15rem;
+    background-color: #fff;
+    max-width: 900px;
+    padding: 40px 50px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+/* ======= TÍTULOS ======= */
+.h1lattes {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #1e3a8a;
+    margin-bottom: 0.2em;
+}
+
+
+.h3lattes {
+    font-size: 1.3rem;
+    color: #1d4ed8;
+    margin-top: 0.3em;
+    text-align: center;
+}
+
+
+.h2lattes {
+    color: #1d4ed8;
+    margin-top: 1.8em;
+    border-left: 5px solid #3b82f6;
+    padding-left: 10px;
+    font-size: 1.5rem;
+}
+
+
+#h4lattes1 {
+    font-size: 1.3rem;
+    color: #1d4ed8;
+    margin-top: 0.3em;
+    margin-left: 3.5rem;
+}
+
+#h4lattes2 {
+    font-size: 1.3rem;
+    color: #1d4ed8;
+    margin-top: 0.3em;
+    margin-left: 6rem;
+}
+
+#h4lattes3 {
+    font-size: 1.3rem;
+    color: #1d4ed8;
+    margin-top: 0.3em;
+    margin-left: 6rem;
+}
+
+
+/* ======= PARÁGRAFOS ======= */
+.plattes {
+    text-align: justify;
+    font-size: 1.05rem;
+    margin-top: 0.8em;
+}
+
+
+#articlelattes1 {
+    margin-left: 20rem;
+}
+
+#articlelattes2 {
+    margin-left: 10rem;
+}
+
+#articlelattes3 {
+    margin-left: 17rem;
+}
