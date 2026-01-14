@@ -21,4 +21,4 @@
 
 ## Descrição
 
-Projeto desenvolvido com foco em **desenvolvimento web**, utilizando tecnologias modernas para criar uma aplicação funcional, responsiva e de fácil manutenção.
+Projeto desenvolvido com foco em desenvolvimento web, utilizando tecnologias modernas para criar uma aplicação funcional, responsiva e de fácil manutenção.
